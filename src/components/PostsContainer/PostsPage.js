@@ -7,13 +7,13 @@ import "./Posts.css";
 const PostsPage = props => {
   return (
     <div className="posts-container-wrapper">
-      {/* {console.log(props)}
-      {console.log(props.zakData)} */}
+      
       {props.zakData.map((postData, index)=>{
         return (
         <div key={index}>
         <Post post = {postData}/>
-        </div>)
+        </div>
+        )
 
         
       })}

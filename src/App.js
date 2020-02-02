@@ -12,7 +12,7 @@ import PostsPage from './components/PostsContainer/PostsPage';
 import SearchBar from './components/SearchBar/SearchBarContainer';
 // import dummydata
 import dummyData from './dummy-data';
-// import Post from "./components/PostsContainer/Post";
+
 
 const App = () => {
   // set up state for the dummy data and pass to your PostsPage

@@ -6,7 +6,7 @@ import "./Comment.css";
 
 const CommentSection = props => {
   // Add state for the comments
-  // console.log(props.comments[0].username);
+ 
   return (
     <div>
       {props.comments.map((comDat, index)=>{
@@ -16,7 +16,7 @@ const CommentSection = props => {
           </div>
 
         )
-      })}/>
+      })}
       <CommentInput />
     </div>
   );
