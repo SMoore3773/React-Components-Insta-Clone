@@ -8,7 +8,9 @@
 }
 .search-form {
   width: 150px;
+  background-color:darkslateblue;
   font-size: 14px;
+  
 }
 .search-form input {
   text-align: center;
@@ -28,4 +30,12 @@
 
 .social {
   width: 50px;
+}
+.fab {
+  
+  height:50px;
+  width:50px;
+}
+.fa-instagram:before{
+  scale:150%;
 }

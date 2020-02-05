@@ -10,7 +10,7 @@ const PostsPage = props => {
       
       {props.zakData.map((postData, index)=>{
         return (
-        <div key={index}>
+        <div className= 'postPageCard' key={index}>
         <Post post = {postData}/>
         </div>
         )

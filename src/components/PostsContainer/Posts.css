@@ -4,6 +4,9 @@
   min-width: 400px;
   margin: 5px auto;
 }
+.postPageCard{
+  box-shadow:5px 5px 10px darkslateblue ;
+}
 .post-header{
   display: flex;
   align-items: center;
